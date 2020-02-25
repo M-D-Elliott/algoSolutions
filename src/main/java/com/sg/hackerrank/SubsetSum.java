@@ -131,7 +131,12 @@ public class SubsetSum {
         // skips addition of this subset value
         // if it is already full.
         for (int i = 0; i < subset.length; ++i) {
-            if (subset[i] >= goalSum) {
+            // if (subset[i] >= goalSum) {
+            // may be faster here,
+            // as all current tests pass, but
+            // with more test cases
+            // I could check if it breaks others.
+            if (subset[i] > goalSum) {
 
                 // modification to exit
                 // recursion and break
