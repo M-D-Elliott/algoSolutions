@@ -3,6 +3,8 @@ package com.sg.hackerrank;
 import java.util.Arrays;
 import java.util.Collections;
 
+// modified solution from original solution found here:
+// https://leetcode.com/problems/partition-equal-subset-sum/discuss/516409/Java-DFS-easy-to-understand
 public class SubsetSum {
 
     // return message for failed edge checks.
